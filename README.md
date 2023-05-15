@@ -5,9 +5,9 @@ Data
 Heart sound recordings of patients are located in data/training_data folder.
 
 
-Feature Extractions
-Window_entropy.m extracts entropy of heart sound signals in the wavelet domain in a rolling window base(window length of 1024).
-Window_Monofractal.m compute Hurst exponent in heart sounds from the wavelet domain in a rolling window base(window length of 1024).
+Feature Extractions<br />
+Window_entropy.m extracts entropy of heart sound signals in the wavelet domain in a rolling window base(window length of 1024).<br />
+Window_Monofractal.m compute Hurst exponent in heart sounds from the wavelet domain in a rolling window base(window length of 1024).<br />
 Multifractal.m extracts multifractal properties of a heart sounding recording of a patient.
 
 
