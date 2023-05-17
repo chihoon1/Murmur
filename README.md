@@ -28,7 +28,7 @@ to murmur classification. IEEE Journal of Biomedical and Health Informatics, 26(
 1. demo_classification.py demonstrates the best model we obatined in our experimentation.<br />
 2. data_mining_process.py contains functions which are used frequently in our codes in the data mining pipe line.<br />
 3. Train and test classification models with different hyper parameters and different data processing(i.e., balancing controls and cases) in the following files:<br />
-        &emsp; Window_GridSearch_LogisticRegression.ipynb<br />
+       &emsp; Window_GridSearch_LogisticRegression.ipynb<br />
         &emsp;Window_GridSearch_KNN.ipynb<br />
         &emsp;Window_GridSearch_SVM.ipynb<br />
         &emsp;Window_features_NN.ipynb<br />
