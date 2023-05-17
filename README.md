@@ -3,7 +3,7 @@
 
 In this project, we propose a novel method based on self-similiarity property of heart sound signls for a diagnosis of heart murmurs.
 1. Monofractal self-similiarty property is obtained by computing wavelet spectra in wavelet domain.
-2. Moultifracl self-similiarty properties are found based on multifractal spectra in wavelet domain.
+2. Multifractal self-similiarty properties are found based on multifractal spectra in wavelet domain.
 3. A set of localized discriminatory features are constructed and selected via a rolling window method to build classifiers; window size is 1024.
 4. Heart murmurs detection performance is evaluated by using four classifiers: Logistic Regression, k-nearrest neighbor, Support Vector Machine, and Neural Network.
 
@@ -28,7 +28,7 @@ to murmur classification. IEEE Journal of Biomedical and Health Informatics, 26(
 1. demo_classification.py demonstrates the best model we obatined in our experimentation.<br />
 2. data_mining_process.py contains functions which are used frequently in our codes in the data mining pipe line.<br />
 3. Train and test classification models with different hyper parameters and different data processing(i.e., balancing controls and cases) in the following files:<br />
-        &emsp; Window_GridSearch_LogisticRegression.ipynb<br />
-        &emsp;Window_GridSearch_KNN.ipynb<br />
-        &emsp;Window_GridSearch_SVM.ipynb<br />
-        &emsp;Window_features_NN.ipynb<br />
+        &emsp; Window_GridSearch_LogisticRegression.ipynb
+        &emsp;Window_GridSearch_KNN.ipynb
+        &emsp;Window_GridSearch_SVM.ipynb
+        &emsp;Window_features_NN.ipynb
